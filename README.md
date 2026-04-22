@@ -1,10 +1,10 @@
-# 📊 Telecommunication Customer Churn Prediction
+# Telecommunication Customer Churn Prediction
 
 This project focuses on predicting customer churn in the telecommunications industry using machine learning techniques. The goal is to identify customers who are likely to leave the company and provide actionable insights for improving customer retention.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 * Predict customer churn using classification models
 * Analyze the impact of data preprocessing on model performance
@@ -13,7 +13,7 @@ This project focuses on predicting customer churn in the telecommunications indu
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 * **Dataset:** IBM Telco Customer Churn
 * **Source:** Kaggle
@@ -29,7 +29,7 @@ The dataset contains customer information such as:
 
 ---
 
-## ⚙️ Data Preprocessing
+## Data Preprocessing
 
 The following preprocessing steps were applied:
 
@@ -43,7 +43,7 @@ These steps significantly improved model performance, especially Recall.
 
 ---
 
-## 🤖 Models Implemented
+## Models Implemented
 
 The following models were trained and evaluated:
 
@@ -56,18 +56,18 @@ Each model was evaluated **before and after preprocessing** to analyze performan
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 * Accuracy
 * Precision
 * Recall (Most Important)
 * F1-Score
 
-👉 Recall is prioritized because missing a churner is more costly than false alarms.
+Recall is prioritized because missing a churner is more costly than false alarms.
 
 ---
 
-## 📈 Results Summary
+## Results Summary
 
 After applying preprocessing:
 
@@ -77,7 +77,7 @@ After applying preprocessing:
 
 ---
 
-## 🏆 Best Model: Logistic Regression
+## Best Model: Logistic Regression
 
 Logistic Regression was selected as the best model because:
 
@@ -88,7 +88,7 @@ Logistic Regression was selected as the best model because:
 
 ---
 
-## 💡 Key Business Insights
+## Key Business Insights
 
 * Month-to-month contract customers are most likely to churn
 * New customers (low tenure) are high-risk
@@ -97,7 +97,7 @@ Logistic Regression was selected as the best model because:
 
 ---
 
-## 📌 Recommendations
+## Recommendations
 
 * Offer discounts to convert users to long-term contracts
 * Improve onboarding for new customers
@@ -106,7 +106,7 @@ Logistic Regression was selected as the best model because:
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * Label encoding may introduce unintended relationships
 * SMOTE applied before train-test split
@@ -115,7 +115,7 @@ Logistic Regression was selected as the best model because:
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Use One-Hot Encoding
 * Apply cross-validation
@@ -124,7 +124,7 @@ Logistic Regression was selected as the best model because:
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 * Python
 * Pandas, NumPy
@@ -134,7 +134,7 @@ Logistic Regression was selected as the best model because:
 
 ---
 
-## 📚 References
+## References
 
 * IBM Telco Dataset (Kaggle)
 * Scikit-learn Documentation
