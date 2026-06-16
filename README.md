@@ -28,7 +28,7 @@ We tested models before and after applying these steps to see how preprocessing 
 * **Decision Tree ($max\_depth=5$):** **Best Overall Model Selection**. Achieved a robust Recall of **0.8503** and the highest F1-Score of **0.8087** without overfitting.
 * **Logistic Regression & SVM:** Showed the biggest jumps after preprocessing, scaling up their Recall scores by 46–49 points once features were balanced.
 
-*For baseline experiments, see the local notebook:* `churn-prediction-.ipynb`
+*For baseline experiments, see the local notebook:* `telecom_churn_and_mba_platform.ipynb`
 
 ---
 
@@ -44,6 +44,7 @@ Using a Minimum Support of `0.03` and a Minimum Confidence of `0.40`, we compare
 * **Execution Time:** For this dataset size, **Apriori was faster**, finishing in **0.1497 seconds** compared to FP-Growth at **0.1977 seconds** (making Apriori roughly 1.32x faster here).
 * **Top Discovered Rule:** `root vegetables ➔ other vegetables` (Lift = **2.2466**). This means a customer buying root vegetables is over twice as likely to buy other fresh vegetables.
 
+*For baseline experiments, see the local notebook:* `telecom_churn_and_mba_platform.ipynb`
 ---
 
 ## Key Business Recommendations
